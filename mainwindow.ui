@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>587</width>
+    <height>423</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>587</width>
+    <height>423</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>587</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Run">
+    <property name="title">
+     <string>&amp;Uygulama</string>
+    </property>
+    <addaction name="m_actionRun"/>
+    <addaction name="m_actionClear"/>
+    <addaction name="m_actionSettings"/>
+   </widget>
+   <addaction name="menu_Run"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="m_actionRun">
+   <property name="text">
+    <string>Çalıştır</string>
+   </property>
+  </action>
+  <action name="m_actionClear">
+   <property name="text">
+    <string>Temizle</string>
+   </property>
+  </action>
+  <action name="m_actionSettings">
+   <property name="text">
+    <string>Ayarlar</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
