@@ -29,7 +29,6 @@ MainWindow::MainWindow(QWidget *parent) :
         QPoint p(rand() % 200 + 250, rand() % 200 + 210);
         m_vecPoint.append(qMakePair(p, color));
     }
-
 }
 
 MainWindow::~MainWindow()

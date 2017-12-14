@@ -45,18 +45,12 @@
     <property name="title">
      <string>&amp;Uygulama</string>
     </property>
-    <addaction name="m_actionRun"/>
     <addaction name="m_actionClear"/>
     <addaction name="m_actionSettings"/>
    </widget>
    <addaction name="menu_Run"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="m_actionRun">
-   <property name="text">
-    <string>Çalıştır</string>
-   </property>
-  </action>
   <action name="m_actionClear">
    <property name="text">
     <string>Temizle</string>

@@ -18,12 +18,21 @@ SettingDialog::~SettingDialog()
     delete ui;
 }
 
-void SettingDialog::on_m_pushButtonSave_clicked(bool checked)
+void SettingDialog::on_m_pushButtonSave_clicked(bool )
 {
+    if(ui->m_lineEditLineSize->text() == "")
+        return;
+    if(ui->m_lineEditNewPointSize->text() == "")
+        return;
+    if(ui->m_lineEditNode->text() == "")
+        return;
+    if(ui->m_lineEditPointSize->text() == "")
+        return;
+
     done(QDialog::Accepted);
 }
 
-void SettingDialog::on_m_pushButtonExit_clicked(bool checked)
+void SettingDialog::on_m_pushButtonExit_clicked(bool )
 {
     done(QDialog::Rejected);
 }

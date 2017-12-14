@@ -20,8 +20,8 @@ public:
     int node();
 
 private slots:
-    void on_m_pushButtonSave_clicked(bool checked);
-    void on_m_pushButtonExit_clicked(bool checked);
+    void on_m_pushButtonSave_clicked(bool);
+    void on_m_pushButtonExit_clicked(bool);
 
 private:
     Ui::SettingDialog *ui;
